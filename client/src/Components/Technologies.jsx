@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGitAlt, FaNodeJs } from "react-icons/fa";
-import { RiGithubFill, RiReactjsLine } from "react-icons/ri";
+import { TbBrandReactNative } from "react-icons/tb";
+import { RiGithubFill, RiReactjsLine, RiVuejsLine } from "react-icons/ri";
 import { SiExpress, SiMongodb } from "react-icons/si";
 import { BiLogoJavascript } from "react-icons/bi";
 import { DiMysql } from "react-icons/di";
@@ -90,6 +91,20 @@ export const Technologies = () => {
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
             <RiGithubFill className="text-7xl" />
+          </motion.div>
+          <motion.div
+            variants={iconVar(1.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <RiVuejsLine className="text-7xl text-green-500" />
+          </motion.div>
+          <motion.div
+            variants={iconVar(1.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <TbBrandReactNative className="text-7xl text-blue-500" />
           </motion.div>
         </motion.div>
       </div>

@@ -6,7 +6,21 @@ export const HERO_CONTENT = `I am Faizan Surani, a versatile Full Stack Develope
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have honed my skills in a variety of technologies, including JavaScript, React.js, Node.js, Express.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
 I developed several projects that highlight my ability to implement secure authentication systems, develop comprehensive user and admin panels, and manage data effectively. For instance, my Book Store Web App and Food Delivery Web App demonstrate my proficiency in creating robust full stack applications using the MERN stack. In addition to my technical expertise, I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.Outside of coding, I enjoy blog writing, book reading, and exploring new technologies. I am fluent in Gujarati, Hindi, and English, which enables me to communicate effectively in diverse environments. I am always eager to contribute to open-source projects and stay updated with the latest industry trends. My goal is to leverage my skills and passion to drive innovation and create impactful digital solutions.`;
 
-export const EXPERIENCES = [];
+export const EXPERIENCES = [
+  {
+    role: "Full Stack Development Intern",
+    duration: "May 2025 - Nov 2025",
+    company: "Incquet Solution",
+    description: ` Built end-to-end features using Zoho Creator, including custom workflows, data structures, and automation to support various internal processes. Developed and integrated Zoho Creator Widgets using Vue.js to deliver advanced UI components and extend platform functionality. Implemented and maintained a React Native mobile application connected to Firebase for authentication, real-time updates, and data synchronization. Created responsive and modular front-end interfaces in Vue.js to support data visualization, user actions, and dynamic workflows. Worked in an Agile environment using Git/GitHub for version control, enabling smooth collaboration and iterative development.`,
+    technologies: [
+      "Javascript",
+      "Zoho Creator",
+      "Vue.js",
+      "Firebase",
+      "React-Native",
+    ],
+  },
+];
 
 export const PROJECTS = [
   {
@@ -41,5 +55,5 @@ export const PROJECTS = [
 export const CONTACT = {
   phoneNo: "+91 9586767921",
   email: "suranifaizan52@gmail.com",
-  address: "Surendranagar, Gujarat, India",
+  address: "Pune, Maharashtra, India",
 };
