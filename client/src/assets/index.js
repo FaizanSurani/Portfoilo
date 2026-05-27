@@ -8,6 +8,21 @@ I developed several projects that highlight my ability to implement secure authe
 
 export const EXPERIENCES = [
   {
+    role: "Growth Engineer",
+    duration: "April 2026 - Present",
+    company: "Axentia",
+    description: `Worked across growth engineering, outbound systems, and AI-driven workflows to improve lead generation, campaign infrastructure, and product operations. Contributed to technical implementation and growth execution, including frontend development, automation workflows, cold outreach systems, and content creation. Built and improved internal tools and workflows, worked on semantic search and RAG-based systems, created and managed outbound campaigns, developed responsive frontend interfaces, integrated backend services, optimized lead pipelines and campaign tracking, and collaborated on rapid iterations, testing, and product improvements.`,
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "Supabase",
+      "PostgreSQL",
+      "JavaScript",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
     role: "Full Stack Development Intern",
     duration: "May 2025 - Nov 2025",
     company: "Incquet Solution",
@@ -23,6 +38,20 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Enterprise AI Knowledge Management System",
+    image: null,
+    description: `Developed a secure AI-powered knowledge management platform with role-based access control and semantic document retrieval. Built a Retrieval-Augmented Generation pipeline using LangChain and FAISS, implemented document ingestion and embedding workflows for PDFs, and integrated semantic search capabilities while maintaining privacy-first local vector storage.`,
+    technologies: [
+      "Python",
+      "React.js",
+      "TypeScript",
+      "LangChain",
+      "FAISS",
+      "Git",
+      "GitHub",
+    ],
+  },
   {
     title: "Book Store Web App",
     image: project1,
